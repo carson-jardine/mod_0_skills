@@ -8,7 +8,7 @@ dishes_owned: (integer)
 types_of_meals_served: (array - string)
 
 Methods:
-clean_dish: (modifies the is_diry boolean attribute)
+clean_dish: (modifies the is_dirty boolean attribute)
 break_dish: (changes number of dishes_owned)
 childrens_meal: (changes dish_material to "plastic")
 add_meal: (adds another element to the types_of_meals_served array)
