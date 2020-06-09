@@ -1,0 +1,14 @@
+Instance: Bowls
+
+Attributes:
+dish_type = "Bowl"
+is_dirty = true
+dish_material = "Ceramic"
+dishes_owned = 100
+types_of_meals_served = ["Soup", "Salad", "Ice Cream"]
+
+Methods:
+clean_dish: is_dirty = false
+break_dish = dishes_owned - 1
+childrens_meal: dish_material = "Plastic"
+add_meal: types_of_meals_served << "Oatmeal"
