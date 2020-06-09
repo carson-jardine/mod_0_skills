@@ -55,7 +55,8 @@ p types_of_meals_served
 # Methods:
 #clean_dish:
 is_dirty = false
-break_dish = dishes_owned - 1
+#break_dish:
+dishes_owned = 99
 #childrens_meal:
 dish_material = "Plastic"
 #add_meal:
