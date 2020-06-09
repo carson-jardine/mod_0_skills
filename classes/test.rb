@@ -66,5 +66,4 @@ p dish_type
 p is_dirty
 p dish_material
 p dishes_owned
-p break_dish
 p types_of_meals_served
