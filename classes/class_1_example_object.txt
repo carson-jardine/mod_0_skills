@@ -1,0 +1,14 @@
+Instance: ItalianMenu
+
+Attributes:
+cuisine_type = "Italian"
+featured_dish = "Spaghetti and Meatballs"
+featured_dish_price = 24.50
+drinks_available = ["Coke", "Sprite", "Wine", "Water"]
+gluten_free_available = false
+
+Methods
+change_dish: featured_dish = "Penne a la Vodka"
+change_price: featured_dish_price = 21.00
+add_drink: drinks_available << "Beer"
+gluten_free: gluten_free_available = true
