@@ -1,0 +1,14 @@
+Class: Menu
+
+Attributes:
+cuisine_type: (string)
+featured_dish: (string)
+featured_dish_price: (float)
+drinks_available: (array - string)
+gluten_free_available: (boolean)
+
+Methods:
+change_dish: (modifies the featured_dish)
+change_price: (modifies the featured_dish_price)
+add_drink: (adds another element to the drinks_available array)
+gluten_free: (modifies the gluten_free_available boolean attribute)
